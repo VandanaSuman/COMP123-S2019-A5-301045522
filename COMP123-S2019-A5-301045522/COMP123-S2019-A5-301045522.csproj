@@ -111,8 +111,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\ProductInfoForm.resx">
+      <DependentUpon>ProductInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SelectForm.resx">
       <DependentUpon>SelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
