@@ -20,11 +20,11 @@ namespace COMP123_S2019_A5_301045522
 
         private void SelectForm_Load(object sender, EventArgs e)
         {
-            using (var db = new ProductModel())
-            {
-                db.products.Load();
-                ProductDataGridView.DataSource = db.products;
-            }
+            //using (var db = new ProductModel())
+            //{
+            //    db.products.Load();
+            //    ProductDataGridView.DataSource = db.products;
+            //}
 
 
                

@@ -16,5 +16,22 @@ namespace COMP123_S2019_A5_301045522.Views
         {
             InitializeComponent();
         }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+            SplashTimer.Enabled = true;
+        }
+
+        private void SplashTimer_Tick(object sender, EventArgs e)
+        {
+            SplashTimer.Enabled = false;
+            Program.Forms[FormNames.START_FORM].Show();
+            this.Hide();
+        }
+
+        private void SplashForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
